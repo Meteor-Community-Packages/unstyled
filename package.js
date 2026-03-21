@@ -9,7 +9,7 @@ Package.onUse(function(api) {
   api.versionsFrom(['2.16', '3.0']);
 
   api.use([
-    'templating',
+    'templating@1.4.4',
   ], 'client');
 
   api.use([
