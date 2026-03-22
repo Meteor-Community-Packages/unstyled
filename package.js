@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Accounts Templates unstyled.',
-  version: '2.0.0',
+  version: '2.0.1',
   name: 'communitypackages:unstyled',
   git: 'https://github.com/Meteor-Community-Packages/unstyled.git',
 });
@@ -9,7 +9,7 @@ Package.onUse(function(api) {
   api.versionsFrom(['2.16', '3.0']);
 
   api.use([
-    'templating@1.4.4',
+    'templating@1.2.13 || 1.4.4',
   ], 'client');
 
   api.use([
